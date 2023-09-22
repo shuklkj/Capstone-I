@@ -8,8 +8,8 @@ Tello Drone Face Tracking
 This repository contains code for real-time face tracking using a DJI Tello drone. The drone captures video frames, detects a face, and then uses a PID controller to move itself and keep the face in the center of the frame.
 
 ## Features:
-    *Real-time face tracking using Haar cascades.
-    *Use of PID controllers for smooth and accurate drone movement.
+    * Real-time face tracking using Haar cascades.
+    * Use of PID controllers for smooth and accurate drone movement.
     *Option to save the video feed to an MP4 file.
     *Separate processes for face tracking, video display, and video recording for efficient multitasking.
     *Graceful shutdown on keyboard interrupts.
