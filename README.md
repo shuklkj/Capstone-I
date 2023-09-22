@@ -5,6 +5,7 @@ The Facial Recognition Drone is a cutting-edge technological solution that combi
 
 
 Tello Drone Face Tracking
+
 This repository contains code for real-time face tracking using a DJI Tello drone. The drone captures video frames, detects a face, and then uses a PID controller to move itself and keep the face in the center of the frame.
 
 Features:
