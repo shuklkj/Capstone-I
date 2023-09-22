@@ -101,7 +101,7 @@ Control your drone using simple voice commands! This script allows users to comm
 
 ## Pre-requisites
 1. Python
-2. OpenCV:
+OpenCV:
     ``` bash
    pip install opencv-python
    ```
