@@ -106,17 +106,18 @@ Control your drone using simple voice commands! This script allows users to comm
    pip install opencv-python
    ```
 djitellopy: 
-    ``` bash
-    pip install djitellopy
-    ```
-SpeechRecognition: 
-    ``` bash
-    pip install SpeechRecognition
-    ```
+   ``` bash
+   pip install djitellopy
+   ```
+SpeechRecognition:
+   ``` bash
+   pip install SpeechRecognition
+   ```
 PyAudio: 
-    ``` bash
-    pip install pyaudio
-    ```
+   ``` bash
+   pip install pyaudio
+   ```
+
 ## Setup
 1. Clone this repository.
 2. Navigate to the repository's directory.
