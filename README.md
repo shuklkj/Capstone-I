@@ -4,7 +4,10 @@
 The Facial Recognition Drone is a cutting-edge technological solution that combines the advancements in robotics, artificial intelligence, and computer vision to enable autonomous and intelligent aerial surveillance. This drone is equipped with a sophisticated facial recognition system that can identify and match individuals' faces with a pre-existing database. By leveraging object detection, facial analysis, and identification algorithms, the drone can perform tasks such as identifying known or wanted criminals in a crowd, conducting surveillance in secured areas, and locating missing persons in various scenarios.
 
 
-Tello Drone Face Tracking
+# Tello Drone Face Tracking 
+<img width="1176" alt="Screenshot 2023-08-03 at 1 01 06 PM" src="https://github.com/shuklkj/Facial-Recognition-Enabled-Drones-Enhancing-Autonomous-Identification-and-Security/assets/118303126/f52284f5-97aa-44ab-a296-67b9e15b1496">
+
+
 This repository contains code for real-time face tracking using a DJI Tello drone. The drone captures video frames, detects a face, and then uses a PID controller to move itself and keep the face in the center of the frame.
 
 ## Features:
