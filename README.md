@@ -48,3 +48,45 @@ There are several parameters you can adjust:
    1. TARGET_FACE_SIZE: Target size for the detected face in the video frame.
    2. max_speed_limit: Maximum speed that the drone will send as a command.
    3. Various PID controller parameters for pan, tilt, and distance.
+
+
+
+
+# Tello Drone Hand Gesture Control
+This project integrates MediaPipe's Hand Solutions with the Tello drone to control the drone using hand gestures. Specifically, the gestures supported are "thumbs up" and "thumbs down".
+
+## Features
+
+1. Hand Gesture Detection: Uses MediaPipe's Hand Solutions for detecting hand gestures in real-time.
+2. Tello Drone Integration: Connects to the Tello drone's video stream and sends commands based on the detected hand gestures.
+3. Thumbs Up Gesture: The drone takes off when this gesture is detected.
+4. Thumbs Down Gesture: The drone lands when this gesture is detected.
+
+## Setup
+
+1. Ensure you have Python 3 installed.
+2. Install the necessary libraries:
+    ``` bash
+    pip install cv2 mediapipe djitellopy
+    ```
+3. Connect your computer to the Tello drone's Wi-Fi network.
+
+## Usage
+
+1. Run the script
+   ``` bash
+    python3 your_script_name.py
+    ```
+2. Show a "thumbs up" gesture to the camera to make the drone take off.
+3. Show a "thumbs down" gesture to the camera to make the drone land.
+4. To exit the program, press 'Esc'.
+
+## Notes
+
+1. Ensure the lighting is adequate for hand detection.
+2. There's a 5-second delay between gestures to prevent unintentional repeated commands.
+3. Always use this in a spacious and safe environment, ensuring no harm to people or objects around.
+
+
+
+
