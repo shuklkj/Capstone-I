@@ -100,10 +100,10 @@ Control your drone using simple voice commands! This script allows users to comm
 3. Provides feedback through print statements to track the command status.
 
 ## Pre-requisites
-1. Python
+Python
 OpenCV:
-    ``` bash
-   pip install opencv-python
+   ``` bash
+    pip install opencv-python
    ```
 djitellopy: 
    ``` bash
